@@ -6,7 +6,7 @@
 a useless shit i made in rush 
 IT DOESN'T WORK SO feel free to add anything you like, whatever it is, would surely be better then this.
 
-## Screenshot:
+## Screenshots:
 
 <img src="IHM TP/images/ET ST.PNG" /> 
 
