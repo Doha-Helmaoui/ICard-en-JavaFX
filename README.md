@@ -6,4 +6,4 @@
 
 ## Screenshot:
 
-<img src="images\ET ST.PNG" /> 
+<img src="images\cet.png" /> 
