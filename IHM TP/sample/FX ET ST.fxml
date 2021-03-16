@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: D3D6EA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Student_Details">
+   <children>
+      <Label layoutX="8.0" layoutY="32.0" prefHeight="45.0" prefWidth="218.0" text="Student Details">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="163.0" fitWidth="187.0" layoutX="411.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/girl%20ic%202%20+%20border%202.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="16.0" layoutY="83.0" prefHeight="304.0" prefWidth="389.0">
+         <children>
+            <HBox prefHeight="46.0" prefWidth="389.0">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="193.0" text="First name &amp; Last name:">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nom" opacity="0.23" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: gray;">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="46.0" prefWidth="389.0">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="193.0" text="Adress:">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="adress" opacity="0.23" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: gray;">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="46.0" prefWidth="389.0">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="193.0" text="Web Site:">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="site" opacity="0.23" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: gray;">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="46.0" prefWidth="389.0">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="193.0" text="Email:">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="email" opacity="0.23" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: gray;">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="46.0" prefWidth="389.0">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="193.0" text="Telephone:">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="num" opacity="0.23" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: gray;">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="46.0" prefWidth="389.0">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="193.0" text="Birthday">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="date" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: gray;">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </DatePicker>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button layoutX="468.0" layoutY="311.0" mnemonicParsing="false" onAction="#Create" prefHeight="34.0" prefWidth="83.0" style="-fx-background-color: null;">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="105.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/create%20button%203.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="458.0" layoutY="178.0" opacity="0.45" prefHeight="45.0" prefWidth="83.0" text="Edit image">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
